@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quest</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <meta name="description" content="Code Quest is a competitive 2-player strategy board game inspired by the classic Snakes and Ladders—where luck alone isn’t enough to win.">
+</head>
+<body>
+    <!-- Dynamic Backgrounds -->
+    <div id="pattern-bg"></div>
+    <div id="particles-bg"></div>
+
+    <nav class="navbar">
+        <a href="#" class="logo"><img src="ASSETS/LOGO.png" alt="Code Quest Logo" class="nav-logo"></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#mechanics">Mechanics</a></li>
+            <li><a href="#screenshots">Gallery</a></li>
+            <li><a href="#developers">Developers</a></li>
+            <li><a href="#challenge">Challenge</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content reveal active">
+            <img src="ASSETS/LOGO.png" alt="Code Quest: Bugs & Ladders Logo" class="hero-logo">
+            <p class="subtitle mt-4">Luck Meets Logic</p>
+            
+            <div class="video-container" style="margin-top: 2rem;">
+                <video controls preload="metadata" class="game-trailer">
+                    <source src="ASSETS/CODE QUEST FINAL.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="trailer-gallery" style="margin-bottom: 3rem;">
+                <div class="trailer-gallery-item">
+                    <img src="IN-GAME SCREENSHOTS/Screenshot 2026-04-30 142816.png" alt="In-game screenshot 1" loading="lazy">
+                </div>
+                <div class="trailer-gallery-item">
+                    <img src="IN-GAME SCREENSHOTS/Screenshot 2026-04-30 142843.png" alt="In-game screenshot 2" loading="lazy">
+                </div>
+                <div class="trailer-gallery-item">
+                    <img src="IN-GAME SCREENSHOTS/Screenshot 2026-04-30 142852.png" alt="In-game screenshot 3" loading="lazy">
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+                <a href="#about" class="cta-button">Enter the Game</a>
+                <a href="https://zijinzu.itch.io/code-quest" class="cta-button" target="_blank" rel="noopener noreferrer">Download on Itch.io</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section reveal">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>About the Game</h2>
+                <p class="lead">Code Quest: Bugs & Ladders is a competitive 2-player strategy board game inspired by the classic Snakes and Ladders—where luck alone isn’t enough to win.</p>
+                <p class="desc-text">Face off against another player in a race to reach tile 100, but every move depends not just on the dice… but on how well you think under pressure.</p>
+            </div>
+            <div class="about-image">
+                <img src="ASSETS/BUG & LADDER.png" alt="Bugs and Ladders Graphic" class="floating-asset">
+            </div>
+        </div>
+    </section>
+
+    <section id="mechanics" class="section">
+        <div class="container">
+            <h2 class="reveal">Game Elements</h2>
+            <div class="grid features-grid">
+                
+                <div class="card reveal delay-1">
+                    <h3>2-Player Gameplay</h3>
+                    <ul>
+                        <li>Designed for head-to-head competition.</li>
+                        <li>Take turns rolling the dice and answering questions.</li>
+                        <li>Outsmart your opponent and gain the advantage.</li>
+                    </ul>
+                </div>
+
+                <div class="card reveal delay-2">
+                    <h3>Core Mechanics</h3>
+                    <p class="mechanic-intro">Before every move, a question appears with a strict 8-second timer.</p>
+                    <ul class="mechanics-list">
+                        <li><strong>Correct Answer</strong> <br>Move forward based on your dice roll.</li>
+                        <li class="mt-2"><strong>Wrong Answer / Timeout</strong> <br>You still roll… but move backward instead.</li>
+                    </ul>
+                </div>
+
+                <div class="card reveal delay-3">
+                    <h3>Game Features</h3>
+                    <ul>
+                        <li>Classic 100-tile board with:
+                            <br>&nbsp;&nbsp;Ladders (boost you forward)
+                            <br>&nbsp;&nbsp;Bugs (send you backward)
+                        </li>
+                        <li>Smooth tile-by-tile movement animation</li>
+                        <li>Bounce-back rule when exceeding tile 100</li>
+                        <li>Dynamic turn-based system</li>
+                    </ul>
+                </div>
+
+                <div class="card reveal delay-4">
+                    <h3>Player Customization</h3>
+                    <ul>
+                        <li>Choose from 8 unique characters</li>
+                        <li>Enter your own player names</li>
+                        <li>Each player has a personalized player card UI</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="screenshots" class="section">
+        <div class="container">
+            <h2 class="reveal">In-Game Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal delay-1">
+                    <img src="IN-GAME SCREENSHOTS/Screenshot 2026-04-30 142816.png" alt="In-game screenshot 1" loading="lazy">
+                </div>
+                <div class="gallery-item reveal delay-2">
+                    <img src="IN-GAME SCREENSHOTS/Screenshot 2026-04-30 142843.png" alt="In-game screenshot 2" loading="lazy">
+                </div>
+                <div class="gallery-item reveal delay-3">
+                    <img src="IN-GAME SCREENSHOTS/Screenshot 2026-04-30 142852.png" alt="In-game screenshot 3" loading="lazy">
+                </div>
+                <div class="gallery-item reveal delay-4">
+                    <img src="IN-GAME SCREENSHOTS/Screenshot 2026-04-30 142901.png" alt="In-game screenshot 4" loading="lazy">
+                </div>
+                <div class="gallery-item reveal delay-1">
+                    <img src="IN-GAME SCREENSHOTS/Screenshot 2026-04-30 142908.png" alt="In-game screenshot 5" loading="lazy">
+                </div>
+                <div class="gallery-item reveal delay-2">
+                    <img src="IN-GAME SCREENSHOTS/Screenshot 2026-04-30 142940.png" alt="In-game screenshot 6" loading="lazy">
+                </div>
+                <div class="gallery-item reveal delay-3">
+                    <img src="IN-GAME SCREENSHOTS/Screenshot 2026-04-30 143003.png" alt="In-game screenshot 7" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="developers" class="section">
+        <div class="container">
+            <h2 class="reveal">Meet the Developers</h2>
+            <p class="lead reveal delay-1">The minds behind the code, logic, and design of Code Quest.</p>
+            
+            <div class="dev-scroll-container reveal delay-2">
+                <div class="dev-card" data-name="Zion" data-title="Lead Developer" data-lang="Python / Full Stack" data-desc="As the visionary Lead Developer of Code Quest, Zion spearheaded the project from its inception. He crafted the core programming logic, designed the intuitive UI/UX, created custom assets, and integrated immersive sound effects to bring the game to life." data-avatar="ASSETS/ZION.png">
+                    <div class="dev-avatar" style="background-image: url('ASSETS/ZION.png');"></div>
+                    <h3>Zion</h3>
+                    <p class="dev-title">Lead Developer</p>
+                    <span class="dev-lang">Python / Full Stack</span>
+                </div>
+                
+                <div class="dev-card" data-name="Kristel" data-title="UI/UX & Content" data-lang="UI/UX Design" data-desc="Kristel played a pivotal role in refining the game's aesthetic, ensuring a seamless and engaging user experience. In addition to her UI/UX design work, she meticulously curated and developed the challenging trivia questions that form the core of the game's unique mechanics." data-avatar="ASSETS/KRISTEL.png">
+                    <div class="dev-avatar" style="background-image: url('ASSETS/KRISTEL.png');"></div>
+                    <h3>Kristel</h3>
+                    <p class="dev-title">UI/UX & Content</p>
+                    <span class="dev-lang">UI/UX Design</span>
+                </div>
+                
+                <div class="dev-card" data-name="Sarah" data-title="Character Assets & Docs" data-lang="Digital Art / Writing" data-desc="Sarah brought the game's cast to life by designing the diverse, selectable character sprites. Beyond her creative contributions to the visual assets, she also managed the comprehensive project documentation, ensuring all game mechanics and workflows were clearly defined." data-avatar="ASSETS/SARAH.png">
+                    <div class="dev-avatar" style="background-image: url('ASSETS/SARAH.png');"></div>
+                    <h3>Sarah</h3>
+                    <p class="dev-title">Assets & Docs</p>
+                    <span class="dev-lang">Digital Art / Writing</span>
+                </div>
+                
+                <div class="dev-card" data-name="Mark" data-title="Environment Assets" data-lang="Digital Environment Art" data-desc="Mark is the architect behind the game's immersive environments. He meticulously designed the intricate maps and contributed significantly to the overall environmental assets, creating the vibrant and challenging board spaces players navigate." data-avatar="ASSETS/MARK.png">
+                    <div class="dev-avatar" style="background-image: url('ASSETS/MARK.png');"></div>
+                    <h3>Mark</h3>
+                    <p class="dev-title">Environment Assets</p>
+                    <span class="dev-lang">Digital Environment Art</span>
+                </div>
+
+                <div class="dev-card" data-name="Jethro" data-title="Audio Design" data-lang="Sound Design" data-desc="Jethro was responsible for curating the auditory experience of Code Quest. He sourced, selected, and implemented high-quality sound effects to enhance the atmosphere, ensuring every dice roll, movement, and trivia interaction felt impactful and satisfying." data-avatar="ASSETS/JETHRO.png">
+                    <div class="dev-avatar" style="background-image: url('ASSETS/JETHRO.png');"></div>
+                    <h3>Jethro</h3>
+                    <p class="dev-title">Audio Design</p>
+                    <span class="dev-lang">Sound Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="challenge" class="section reveal">
+        <div class="container text-center">
+            <h2>The Challenge</h2>
+            <p class="lead challenge-text">This is not just a game of luck—it’s a battle of:</p>
+            
+            <div class="skills">
+                <span class="skill-tag">Knowledge</span>
+                <span class="skill-tag">Speed</span>
+                <span class="skill-tag">Strategy</span>
+            </div>
+            
+            <div class="objective-box reveal">
+                <h3>Objective</h3>
+                <p>Be the first to reach tile 100 and defeat your opponent.</p>
+                <div class="highlight-box">
+                    In this game, the smartest player—not the luckiest—wins.
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2026 Code Quest. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Developer Modal -->
+    <div id="dev-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <div class="modal-avatar"></div>
+                <div class="modal-titles">
+                    <h2 id="modal-name">Name</h2>
+                    <p id="modal-title" class="dev-title">Title</p>
+                    <span id="modal-lang" class="dev-lang">Language</span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p id="modal-desc">Description will appear here.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
